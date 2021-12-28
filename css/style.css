@@ -179,28 +179,21 @@ li {
     width: 160px;
     height: 100%;
     position: absolute;
-    /*background-color:#002491d5;
-    backdrop-filter: blur(20px);*/
-    left: 65px;
+    /*backdrop-filter: blur(20px);*/
+    left: -200px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     padding-left: 10px;
-    opacity: 0;
 }
 
 .menu-right:hover ul {
-    opacity: 1;
+    left: 65px;
     transition: ease-in-out 250ms;
 }
 
 .menu-right:hover .button-bg  {
     width: 230px;
 }
-
-/*.menu-right li {
-    list-style-type: none;
-}*/
-
 
 
 /* Menu Lateral - Botaoes */
@@ -378,8 +371,9 @@ li {
     padding-left: 10px;
     border-left: 4px solid #F76879;
     margin-left: 20px;
-    position: absolute;
+    position: relative;
     margin-top: 20px;
+    margin-bottom: -40px;
     color: #fff;
     z-index: 998;
 }
