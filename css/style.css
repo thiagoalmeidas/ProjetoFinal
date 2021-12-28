@@ -304,7 +304,24 @@ li {
     flex-direction: column;
     margin-right: 40px;
     padding-right: 34px;
-    margin-top: 20%;
+    margin-top: 10%;
+}
+
+.desc-banner-right a{
+    color: #fff;
+    padding: 0.8rem;
+    border: 2px solid #1558E5;
+    font-size: 0.8rem;
+    border-radius: 35px ;
+}
+
+.desc-banner-right a:hover{
+    color: #fff;
+    padding: 0.8rem;
+    border: 2px solid #ffffff;
+    font-size: 0.8rem;
+    border-radius: 35px ;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.377);
 }
 
 .desc-banner-left {
@@ -315,7 +332,24 @@ li {
     flex-direction: column;
     margin-left: 40px;
     padding-left: 34px;
-    margin-top: 20%;
+    margin-top: 10%;
+}
+
+.desc-banner-left a{
+    color: #fff;
+    padding: 0.8rem;
+    border: 2px solid #1558E5;
+    font-size: 0.8rem;
+    border-radius: 35px ;
+}
+
+.desc-banner-left a:hover{
+    color: #fff;
+    padding: 0.8rem;
+    border: 2px solid #ffffff;
+    font-size: 0.8rem;
+    border-radius: 35px ;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.377);
 }
 
 .link-news {
@@ -330,7 +364,7 @@ li {
 .risk-title-right{
     width: 6px;
     height: 40%;
-    background: #F76879;
+    background: #1558E5;
     position: absolute;
     right: 0px;
 }
@@ -338,7 +372,7 @@ li {
 .risk-title-blue{
     width: 6px;
     height: 25%;
-    background: #0f2464;
+    background: #1558E5;
     position: absolute;
     right: 0px;
 }
@@ -346,7 +380,7 @@ li {
 .risk-title-left {
     width: 6px;
     height: 25%;
-    background: #F76879;
+    background: #1558E5;
     position: absolute;
     left: 0px;
 }
@@ -643,6 +677,14 @@ li {
         flex-direction: row;
         background: rgb(6, 64, 223);
         border-radius: 0px;
+    }
+
+    .risk-title-left {
+        height: 50%;
+    }
+
+    .risk-title-right {
+        height: 50%;
     }
 
     .menu-right ul{
